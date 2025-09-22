@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header section */
+
+.header {
+    background-color: rgb(104, 130, 225);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.logo {
+    width: 45%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    padding-left: 1%;
+}
+
+.nav {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(104, 130, 225);
+    font-weight: 300;
+}
+
+.nav-links {
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    font-weight: 300;
+    color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Banner section */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.B1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: rgb(104, 130, 225);
+}
+.B2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.B3 {
+    font-size: 20px;
+    font-weight: 350;
+    padding-bottom: 15px;
+}
+
+.CTA {
+    background-color: rgb(104, 130, 225);
+    color: white;
+    border: 2px solid rgb(104, 130, 225);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.CTA:hover {
+    background-color: transparent;
+    color: rgb(104, 130, 225);
+    transition: .02s;
+}
+
+.CTA a {
+    text-decoration: none;
+    color: white;
+}
+.CTA a:hover {
+    color: rgb(104, 130, 225);}
+
+.headshot {
+    
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: right;
+}
+
+.about {
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.resume {
+    width: 100%;
+    height: 850px;
+    background-color: lightgray;
+    padding: 70px 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.resume-content {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.projects {
+    width: 100%;
+    background-color: lightgray;
+    padding: 40px 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.projects-content {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    background-color: white
+}
+
+.project-item {
+    background-color: rgb(104, 130, 225);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+.project-button {
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project-button:hover {
+    background-color: transparent;
+    color: lightgray;
+    transition: .02s;
+}
+
+
+.contact {
+    width: 100%;
+    height: 550px;
+    background-color: lightgray;
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.message {
+    width: 80%;
+    height: 100px;
+    resize: vertical;
+}
